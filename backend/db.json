@@ -1,5 +1,5 @@
 {
-  "films": [
+  "movies": [
     {
       "id": 1,
       "title": "Liga da Justiça - SnyderCut",
@@ -13,23 +13,25 @@
       "director": "Adam Wingard",
       "genre": "Ação",
       "year": "2021"
-    },
+    }
+  ],
+  "series": [
     {
-      "id": 3,
+      "id": 1,
       "title": "WandaVision",
       "director": "Jack Shaeffer",
       "genre": "Comédia",
       "year": "2021"
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Stranger Things",
       "director": "Matt Duffer e Ross Duffer",
       "genre": "Fantasia",
       "year": "2016"
     },
     {
-      "id": 5,
+      "id": 3,
       "title": "Luficer",
       "director": "Adam",
       "genre": "Drama",
