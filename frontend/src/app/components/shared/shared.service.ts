@@ -9,11 +9,12 @@ export class SharedService {
 
   constructor(private snackBar: MatSnackBar) { }
 
-  showMessage(msg: string): void {
+  showMessage(msg: string, isError: boolean = false): void {
     this.snackBar.open(msg, "x", {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top",
+      panelClass: isError ? ['snack-message-error'] : ['snack-message-success'] 
     });
   }
 }
