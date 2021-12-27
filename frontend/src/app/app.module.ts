@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatButtonModule } from '@angular/material/button';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -29,6 +30,7 @@ import { SeriesComponent } from './views/series/series.component';
 import { MoviesCreateComponent } from './components/movie/movies-create/movies-create.component';
 import { SerieCreateComponent } from './components/serie/serie-create/serie-create.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MovieIndexComponent } from './components/movie/movie-index/movie-index.component';
 
 
 
@@ -43,6 +45,7 @@ import { HttpClientModule } from '@angular/common/http';
     SeriesComponent,
     MoviesCreateComponent,
     SerieCreateComponent,
+    MovieIndexComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,7 +62,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
