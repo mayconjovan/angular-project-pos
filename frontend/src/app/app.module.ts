@@ -32,6 +32,9 @@ import { HttpClientModule } from "@angular/common/http";
 import { MovieIndexComponent } from "./components/movie/movie-index/movie-index.component";
 import { MovieUpdateComponent } from "./components/movie/movie-update/movie-update.component";
 import { MovieDeleteComponent } from "./components/movie/movie-delete/movie-delete.component";
+import { DialogComponent } from './components/shared/dialog/dialog.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -47,6 +50,7 @@ import { MovieDeleteComponent } from "./components/movie/movie-delete/movie-dele
     MovieIndexComponent,
     MovieUpdateComponent,
     MovieDeleteComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,6 +70,7 @@ import { MovieDeleteComponent } from "./components/movie/movie-delete/movie-dele
     MatSelectModule,
     MatSnackBarModule,
     MatTableModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],

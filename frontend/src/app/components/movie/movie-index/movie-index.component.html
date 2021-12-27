@@ -39,9 +39,9 @@
       <a routerLink="/movies/update/{{ movie.id }}" class="action edit">
         <i class="material-icons">edit</i>
       </a>
-      <a routerLink="/movies/delete/{{ movie.id }}" class="action delete">
+      <span (click)="onDelete(movie.id)" class="action delete">
         <i class="material-icons">delete</i>
-      </a>
+      </span>
     </td>
   </ng-container>
 
