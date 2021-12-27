@@ -31,6 +31,8 @@ import { MoviesCreateComponent } from './components/movie/movies-create/movies-c
 import { SerieCreateComponent } from './components/serie/serie-create/serie-create.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieIndexComponent } from './components/movie/movie-index/movie-index.component';
+import { MovieUpdateComponent } from './components/movie/movie-update/movie-update.component';
+import { MovieDeleteComponent } from './components/movie/movie-delete/movie-delete.component';
 
 
 
@@ -46,6 +48,8 @@ import { MovieIndexComponent } from './components/movie/movie-index/movie-index.
     MoviesCreateComponent,
     SerieCreateComponent,
     MovieIndexComponent,
+    MovieUpdateComponent,
+    MovieDeleteComponent,
   ],
   imports: [
     BrowserModule,

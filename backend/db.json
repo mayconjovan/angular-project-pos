@@ -1,30 +1,9 @@
 {
   "movies": [
     {
-      "id": 1,
-      "title": "Liga da Justiça - SnyderCut",
-      "director": "Zack Snyder",
-      "genre": "Ação",
-      "year": "2021"
-    },
-    {
-      "id": 2,
-      "title": "Godzilla vs Kong",
-      "director": "Adam Wingard",
-      "genre": "Ação",
-      "year": "2021"
-    },
-    {
-      "title": "Nome do filme",
-      "director": "Nome do Diretor",
-      "year": "2021",
-      "genre": "Comédia",
-      "id": 3
-    },
-    {
       "title": "Falcao e o soldado invernal",
       "director": "Anthony Mackie, Sebastian Stan, Wyatt Russell",
-      "year": "",
+      "year": "2019",
       "genre": "Aventura",
       "id": 4
     },
