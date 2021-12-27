@@ -10,6 +10,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatButtonModule } from '@angular/material/button';
+
+
 
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
@@ -18,10 +26,10 @@ import { NavigationComponent } from './components/template/navigation/navigation
 import { HomeComponent } from './views/home/home.component';
 import { MoviesComponent } from './views/movies/movies.component';
 import { SeriesComponent } from './views/series/series.component';
-import {MatButtonModule} from '@angular/material/button';
 import { MoviesCreateComponent } from './components/movie/movies-create/movies-create.component';
 import { SerieCreateComponent } from './components/serie/serie-create/serie-create.component';
 import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -34,19 +42,24 @@ import { HttpClientModule } from '@angular/common/http';
     MoviesComponent,
     SeriesComponent,
     MoviesCreateComponent,
-    SerieCreateComponent
+    SerieCreateComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule,
     MatToolbarModule,
     MatIconModule,
     MatListModule,
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
-    HttpClientModule
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
