@@ -13,6 +13,13 @@
       "director": "Adam Wingard",
       "genre": "Ação",
       "year": "2021"
+    },
+    {
+      "title": "Nome do filme",
+      "director": "Nome do Diretor",
+      "year": "2021",
+      "genre": "Comédia",
+      "id": 3
     }
   ],
   "series": [

@@ -18,6 +18,11 @@ import { NavigationComponent } from './components/template/navigation/navigation
 import { HomeComponent } from './views/home/home.component';
 import { MoviesComponent } from './views/movies/movies.component';
 import { SeriesComponent } from './views/series/series.component';
+import {MatButtonModule} from '@angular/material/button';
+import { MoviesCreateComponent } from './components/movie/movies-create/movies-create.component';
+import { SerieCreateComponent } from './components/serie/serie-create/serie-create.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +32,9 @@ import { SeriesComponent } from './views/series/series.component';
     NavigationComponent,
     HomeComponent,
     MoviesComponent,
-    SeriesComponent
+    SeriesComponent,
+    MoviesCreateComponent,
+    SerieCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +44,9 @@ import { SeriesComponent } from './views/series/series.component';
     MatIconModule,
     MatListModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
